@@ -9,17 +9,18 @@
     <title>Mood DApp</title>
 </head>
 <body>
-    <div id="main">
-        <div class="heading">
-            <h1>Welcome to the Mood DApp</h1>
+    <div id="container">
+        <div id="main">
+            <div class="heading">
+                <h1>Welcome to the Mood DApp</h1>
+            </div>
         </div>
-    </div>
-    <div class="para">
-        <p>Here, you can set your current mood and retrieve it.</p>
-    </div>
-    <label for="mood">Mood</label><br>
-    <input type="text" name="mood" id="mood"> <br>
-    <button class="custom-btn btn-4" onclick="getMood()">Get Mood</button>
-    <button class="custom-btn btn-4" onclick="setMood()">Set Mood</button>
+        <div id="para">
+            <p>Here, you can set your current mood and retrieve it.</p>
+        </div>
+        <input class="input-name" type="text" name="mood" id="mood" placeholder="Set/Get Mood"> <br>
+        <button class="custom-btn btn-4" onclick="getMood()">Get Mood</button>
+        <button class="custom-btn btn-4" onclick="setMood()">Set Mood</button>
+    </div>  
 </body>
 </html>
